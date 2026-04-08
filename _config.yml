@@ -1,0 +1,34 @@
+# GitHub Pages 配置文件
+title: AI Crypto Analyzer
+description: 免费AI+Crypto项目评分工具
+baseurl: "" # 如果部署到子目录需要设置
+url: "https://[你的用户名].github.io" # 你的GitHub Pages网址
+
+# Jekyll设置
+markdown: kramdown
+theme: minima
+
+# 排除不需要的文件
+exclude:
+  - README.md
+  - GITHUB_DEPLOYMENT_GUIDE.md
+  - FINAL_DEPLOYMENT_PACKAGE.md
+  - github_deploy_now.bat
+  - deploy_now.bat
+  - deploy_now.py
+  - start_deployment.bat
+  - EMERGENCY_DEPLOY.bat
+  - EMERGENCY_GITHUB_DEPLOY.bat
+  - test_deployment_demo.py
+  - DEPLOYMENT_CHECKLIST.md
+  - DEPLOYMENT_CONFIRMATION.md
+  - update_url.py
+
+# 插件
+plugins:
+  - jekyll-feed
+
+# 站点设置
+encoding: UTF-8
+lang: zh-CN
+timezone: Asia/Shanghai
